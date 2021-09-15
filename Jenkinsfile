@@ -42,7 +42,7 @@ pipeline {
                  branch 'production'
              }
              steps {
-                 echo 'Deploying to production from the production branch.....'
+                 echo 'Deploying to production from the production branch......'
              }
              post {
                  always {
