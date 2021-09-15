@@ -16,7 +16,7 @@ pipeline {
                  branch 'staging'
              }
              steps {
-                 echo 'Deploying to Staging from the staging branch...'
+                 echo 'Deploying to Staging from the staging branch....'
              }
              post {
                  always {
